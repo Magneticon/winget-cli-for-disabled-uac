@@ -141,8 +141,8 @@
       <AdditionalManifestFiles Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">$(ProjectDir)..\manifest\shared.manifest</AdditionalManifestFiles>
     </Manifest>
     <PostBuildEvent>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">copy "$(ProjectDir)..\AppInstallerCLIPackage\bin\$(PlatformTarget)\$(configuration)\resources.pri" "$(TargetDir)\resources.pri"</Command>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">copy "$(ProjectDir)..\AppInstallerCLIPackage\bin\$(PlatformTarget)\$(configuration)\resources.pri" "$(TargetDir)\resources.pri"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">copy "$(ProjectDir)\..\AppInstallerCLIPackage\bin\$(PlatformTarget)\$(configuration)\resources.pri" "$(TargetDir)\resources.pri"</Command>
+	  <Command Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">copy "$(ProjectDir)\..\AppInstallerCLIPackage\bin\$(PlatformTarget)\$(configuration)\resources.pri" "$(TargetDir)\resources.pri"</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Platform)'=='Win32'">
