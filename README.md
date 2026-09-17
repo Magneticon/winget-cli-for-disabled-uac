@@ -1,3 +1,13 @@
+This is a small build of Winget v1.30, as the default Winget installation using msix installer cannot be run on Windows with disabled UAC (for example, XP modded Windows 10 LTSC 2021). Therefore I have recompiled and rebuilt the winget as executable module, which can be used on such version of Windows.
+
+<img width="1920" height="1080" alt="2" src="https://github.com/user-attachments/assets/607e6616-bbcd-4efb-8412-f00dda52de8d" />
+<img width="1920" height="1080" alt="3" src="https://github.com/user-attachments/assets/8364f6d3-8946-412f-ba00-a84fb5250a4b" />
+<img width="1029" height="758" alt="4" src="https://github.com/user-attachments/assets/36a7dc0d-ee92-4aa2-a085-85ab8f1cc484" />
+
+After the fix:
+
+<img width="835" height="547" alt="5" src="https://github.com/user-attachments/assets/59055720-71ae-43fe-8ff6-34a35744b334" />
+
 # ![WinGet Icon](.github/images/WindowsPackageManager_Assets/ICO/PNG/_40.png) Windows Package Manager
 
 ## WinGet Client
